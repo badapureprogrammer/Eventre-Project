@@ -1,0 +1,1087 @@
+body {
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+.header {
+    z-index: 5;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background-color: #ffffff;
+}
+
+.logo {
+    height: 29px;
+    font-size: 18px;
+    margin: 0px 0px 0px 0px;
+    padding: 35px 40px 35px 50px;
+    background-color: #ffffff;
+    border-right: 2px solid #cecdcd;
+}
+
+.emptydiv {
+    height: 50px;
+    width: 10px;
+}
+
+.menulist ul {
+    height: 60px;
+    display: flex;
+    list-style: none;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+ul li {
+    font-size: 16.96px;
+    padding: 25px 0px 19.2px 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+li a {
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #ff6600;
+}
+
+.home {
+    color: #ff6600;
+}
+
+.dash {
+    margin: 0px 0px 0px 16px;
+}
+
+.dashlast {
+    margin: 0px 50px 0px 16px;
+}
+
+.ticket {
+    width: 180px;
+    display: flex;
+    padding: 34px 32px;
+    margin: 0px 0px 0px 20px;
+    background-color: #ff6600;
+}
+
+.ticket img {
+    padding: 0px 16px 0px 0px;
+}
+
+.buy {
+    font-weight: 400;
+    color: #ffffff;
+    padding: 5px 0px 2px 16px;
+    border-left: 0.5px solid #ffffff;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*----------------------- END OF MENU BAR SECTION --------------------------------*/
+.shortimg {
+    z-index: 0;
+    height: 150px;
+    width: 100%;
+    position: relative;
+    padding: 200px 0px 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../EventreProject_Images/page-title-bg.jpg");
+
+}
+
+.shortimg h1 {
+    z-index: 1;
+    color: #fff;
+    font-size: 2.25rem;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    padding: 0px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.shortimg p {
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.shortimglayer {
+    z-index: 2;
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 200px 0px 0px 0px;
+    background-color: rgba(41, 27, 63, 0.6);
+}
+
+/*----------------------- END OF SHORTINFO SECTION --------------------------------*/
+#mainbody {
+    height: 1000px;
+    width: 100%;
+    margin: 50px 0px 80px 00px;
+}
+
+.head {
+    color: #000;
+    font-weight: 600;
+    font-size: 2.25rem;
+    text-align: center;
+    padding: 80px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.speaking {
+    color: #ff6600;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.onelinefirst {
+    color: #fff;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.rowonep {
+    display: flex;
+    justify-content: center;
+}
+
+#flex {
+    display: block;
+}
+
+.first img {
+    width: 256px;
+    height: 270px;
+}
+
+.overlay {
+    opacity: 0;
+    position: absolute;
+    background-color: #ff6600;
+    transition: all 1s ease;
+}
+
+.first:hover .overlay {
+    opacity: 0.9;
+}
+
+.data_person {
+    width: 287px;
+    height: 380px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 20px;
+    border: 2px solid #bdbbbb;
+    background-color: #f8f9fa;
+    transition: all 0.4s ease;
+}
+
+.data_person:hover {
+    box-shadow: 0px 0px 30px #838080;
+
+}
+
+.head {
+    color: #000;
+    font-weight: 600;
+    font-size: 2.25rem;
+    text-align: center;
+    padding: 60px 0px 20px 0px;
+    margin: 0px 0px 0px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.onelinefirst {
+    color: #847e7e;
+    text-align: center;
+    margin: 10px 0px 30px 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.first {
+    height: 280px;
+    width: 256px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0px 0px 0px 0px;
+}
+
+#flex {
+    display: block;
+}
+
+.first img {
+    width: 256px;
+    height: 270px;
+    margin: 20px 0px 0px 0px;
+}
+
+.overlay {
+    opacity: 0;
+    position: absolute;
+    background-color: #ff6600;
+    transition: all 0.4s ease-out;
+}
+
+.first:hover .overlay {
+    opacity: 0.9;
+}
+
+.iconlist {
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    margin: 70px 0px 0px 0px;
+    transform: translate(-50%, -50%);
+}
+
+.overlaybottom {
+    left: 0;
+    height: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.first:hover .overlaybottom {
+    height: 93%;
+}
+
+.iconf {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid #fff;
+    padding: 8px 8px 8px 8px;
+    margin: 5px 5px 5px 5px;
+}
+
+.iconf:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.icont {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid #fff;
+    padding: 8px 8px 8px 8px;
+    margin: 5px 5px 5px 5px;
+}
+
+.icont:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.iconl {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid #fff;
+    padding: 8px 8px 8px 8px;
+    margin: 5px 5px 5px 5px;
+}
+
+.iconl:hover {
+    color: #000000;
+    background-color: #fff;
+}
+
+.iconp {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid #fff;
+    padding: 8px 8px 8px 8px;
+    margin: 5px 5px 5px 5px;
+}
+
+.iconp:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.h_name {
+    color: #222222;
+    font-size: 22px;
+    margin: 10px 0px 10px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.h_name:hover {
+    color: #ff6600;
+}
+
+.h_post {
+    color: #222222;
+    font-family: "Roboto", sans-serif;
+    margin: 0px 0px 20px 0px;
+
+}
+
+/*----------------------- END OF PORTFOLIO SECTION --------------------------------*/
+.shortpara {
+    height: 250px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../EventreProject_Images/newsletter-bg.jpg");
+}
+
+.emtydiv {
+    top: 0px;
+    width: 100%;
+    height: 250px;
+    opacity: 0.6;
+    position: absolute;
+    background-color: #000000;
+}
+
+.firstinfo {
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    word-spacing: 1px;
+    margin: px 0px 0px 0px;
+    padding: 60px 0px 0px 100px;
+}
+
+.firstinfo h1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 2.25rem;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 10px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.firstinfo span {
+    color: #ff6600;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.firstinfo p {
+    color: #fff;
+    line-height: 26px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    word-spacing: 0.5px;
+    font-family: "Roboto", sans-serif;
+}
+
+.veeru {
+    margin: 10px 0px 0px 50px;
+    padding: 15px 0px 15px 40px;
+}
+
+.veeruinput {
+    padding: 13px 220px 13px 20px;
+}
+
+::placeholder {
+    color: #848484;
+    font-size: 14px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.jeeru {
+    margin: 10px 0px 0px 20px;
+    padding: 15px 0px 15px 20px;
+}
+
+.jeerubtn {
+    color: #fff;
+    border: none;
+    font-size: 0..9375rem;
+    background-color: #ff6600;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 0px;
+    padding: 18px 52px 18px 52px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*----------------------- END OF SHORT DIVISION SECTION --------------------------------*/
+.last {
+    position: relative;
+}
+
+.map {
+    margin: 4px 0px 0px 0px;
+    height: 450px;
+    width: 1520px;
+}
+
+.address {
+    color: #fff;
+    height: 220px;
+    width: fit-content;
+    position: absolute;
+    top: 80px;
+    left: 230px;
+    padding: 45px 40px 45px 40px;
+    margin: 0px 0px 0px 0px;
+    background-color: #ff6600;
+}
+
+.address h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    margin: 0px 0px 0px 26px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.address li {
+    list-style: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.shortadd {
+    color: #fff !important;
+    font-size: 16px;
+}
+
+.addandnum {
+    color: #fff;
+}
+
+.direction {
+    padding: 20px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.get {
+    border: none;
+    color: #222222;
+    font-weight: 400;
+    background-color: #fff;
+    padding: 15px 40px 15px 40px;
+    margin: 0px 0px 0px 30px;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.5s ease;
+}
+
+.get:hover {
+    color: #fff;
+    background-color: #ff6600;
+}
+
+/*----------------------- END OF MAP SECTION --------------------------------*/
+.footer {
+    background-color: #272735;
+    height: 300px;
+}
+
+.footerhead {
+    display: flex;
+    justify-content: center;
+}
+
+.footerimg {
+    padding: 60px 0px 30px 0px;
+}
+
+.listoficon ul {
+    display: flex;
+    justify-content: center;
+}
+
+.listoficon li {
+    list-style: none;
+}
+
+.fivemember {
+    border: none;
+    font-size: 20px;
+    color: #6d6c6c;
+    background-color: #fff;
+    transition: all 0.2s ease;
+    padding: 14px 14px 14px 14px;
+}
+
+.fivemember:hover {
+    color: #fff;
+    background-color: #ff6600;
+}
+
+.copyright {
+    height: 80px;
+    width: 100%;
+    background: #2a2a37;
+    position: relative;
+}
+
+.copyrighthead h1 {
+    font-size: 1rem;
+    color: #848484;
+    line-height: 26px;
+    font-weight: 400;
+    padding: 30px 0px 30px 120px;
+    margin: 0px 0px 0px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.copyright span {
+    color: #ff6600;
+}
+
+.uparrow {
+    color: #fff;
+    font-size: 24px;
+    background-color: #ff6600;
+    padding: 12px 12px 12px 12px;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+
+/*----------------------- END OF FOOTER SECTION --------------------------------*/
+/*-------------------------------------------------- END OF CSS SECTION HERE -------------------------------------------------------*/
+
+/*-------------------------------------------------- START A MEDIA QUERY SECTION ---------------------------------------------------*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+        margin: 0px;
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        position: absolute;
+        height: fit-content;
+        flex-direction: column;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .logo {
+        height: 24px;
+        width: 120px;
+        border: none;
+        margin: 10px 0px 0px 100px;
+        padding: 0px 0px 10px 0px;
+    }
+
+    .emptydiv {
+        height: 0px;
+        width: 0px;
+    }
+
+    .menulist ul {
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+    }
+
+    .menulist li {
+        font-size: 14px;
+        text-align: left;
+        margin: 0px 0px 0px 100px;
+        padding: 0px 0px 15px 0px;
+    }
+
+    .dash {
+        display: none;
+    }
+
+    .dashlast {
+        display: none;
+    }
+
+    .ticket {
+        width: 100%;
+        display: flex;
+        background-color: #ff6600;
+        padding: 5px 0px 5px 0px;
+        margin: 155px 0px 0px 0px;
+    }
+
+    .ticket img {
+        padding: 0px 14px 0px 80px;
+    }
+
+    /*----------------------- END OF MENU BAR SECTION --------------------------------*/
+    .shortimg {
+        z-index: 1;
+        height: 150px;
+        width: 100%;
+        position: relative;
+        padding: 400px 0px 0px 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("../EventreProject_Images/page-title-bg.jpg");
+    }
+
+    .shortimg h1 {
+        color: #fff;
+        font-size: 2.25rem;
+        font-weight: 500;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        padding: 0px 0px 10px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .shortimg p {
+        color: #fff;
+        font-size: 1rem;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .shortimglayer {
+        z-index: 2;
+        height: 150px;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding: 400px 0px 0px 0px;
+        background-color: rgba(41, 27, 63, 0.6);
+    }
+
+    /*----------------------- END OF SHORTINFO SECTION --------------------------------*/
+    #firstsection {
+        z-index: 0;
+        border: none;
+        width: fit-content;
+        margin: 40px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .textandinfo {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .speakandinfo {
+        position: relative;
+    }
+
+    .backinimg {
+        width: 280px;
+        height: 280px;
+        color: #212529;
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 20px;
+    }
+
+    .speakerone {
+        top: 30px;
+        left: 50px;
+        position: absolute;
+    }
+
+    .frontofimg {
+        width: 220px;
+        height: 220px;
+        border-radius: 50%;
+    }
+
+    .allinfo h3 {
+        width: 200px;
+        font-weight: 550;
+        color: #222222;
+        font-size: 40px;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 3px 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .eventre {
+        font-weight: 400;
+        color: #ff6600;
+        font-style: italic;
+        margin: 20px 0px 30px 0px;
+        padding: 0px 0px 3px 30px;
+    }
+
+    .blankline {
+        height: 2px;
+        width: 50px;
+        border: none;
+        background-color: #ff6600;
+        margin: 0px 0px 20px 110px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .allinfo .para {
+        width: 260px;
+        font-size: 16px;
+        text-align: center;
+        line-height: 22px;
+        letter-spacing: 0.5px;
+        word-spacing: 0.5px;
+        padding: 0px 0px 0px 3px;
+        margin: 30px 0px 20px 30px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .allinfo .paratwo {
+        width: 260px;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        word-spacing: 0.5px;
+        line-height: 22px;
+        padding: 0px 0px 0px 3px;
+        margin: 20px 0px 40px 30px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .karan {
+        color: #ffffff;
+        text-align: center;
+        border: 0.5px solid #ff6600;
+        background-color: #ff6600;
+        padding: 19px 40px 19px 40px;
+        margin: 0px 10px 10px 85px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .karan:hover {
+        background-color: #e65c00;
+    }
+
+    .arjun {
+        border: none;
+        text-align: center;
+        background-color: #fff;
+        border: 0.5px solid gray;
+        padding: 18px 40px 18px 40px;
+        margin: 20px 0px 0px 85px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .arjun:hover {
+        color: #fff;
+        background-color: #ff6600;
+    }
+
+    /*----------------------- END OF FIRST SECTION --------------------------------*/
+    #mainbody {
+        height: 3550px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .head {
+        color: #000;
+        font-weight: 600;
+        font-size: 2.25rem;
+        text-align: center;
+        padding: 80px 0px 20px 0px;
+        margin: 0px 0px 20px 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .speaking {
+        color: #ff6600;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .onelinefirst {
+        color: #847e7e;
+        text-align: center;
+        margin: 10px 0px 30px 0px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    #flex {
+        display: block;
+    }
+
+    .first img {
+        width: 256px;
+        height: 270px;
+    }
+
+    .overlay {
+        opacity: 0;
+        position: absolute;
+        background-color: #ff6600;
+        transition: all 1s ease;
+    }
+
+    .first:hover .overlay {
+        opacity: 0.9;
+    }
+
+    .data_person {
+        width: 287px;
+        height: 380px;
+        text-align: center;
+        box-sizing: border-box;
+        margin: 20px;
+        border: 2px solid #bdbbbb;
+        background-color: #f8f9fa;
+        transition: all 0.4s ease;
+    }
+
+    .data_person:hover {
+        box-shadow: 0px 0px 30px #838080;
+    }
+
+    .onelinefirst {
+        color: #847e7e;
+        text-align: center;
+        margin: 10px 0px 30px 0px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .first {
+        height: 280px;
+        width: 256px;
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        padding: 0px 0px 0px 0px;
+    }
+
+    #flex {
+        display: block;
+    }
+
+    .first img {
+        width: 256px;
+        height: 270px;
+        margin: 20px 0px 0px 0px;
+    }
+
+    /*----------------------- END OF PORTFOLIO SECTION --------------------------------*/
+    .shortpara {
+        height: 450px;
+        width: 100%;
+        margin: 50px 0px 0px 0px;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("../EventreProject_Images/newsletter-bg.jpg");
+    }
+
+    .emtydiv {
+        top: 0px;
+        width: 100%;
+        height: 450px;
+        opacity: 0.6;
+        position: absolute;
+        background-color: #000000;
+    }
+
+    .firstinfo {
+        z-index: 2;
+        display: flex;
+        position: absolute;
+        word-spacing: 1px;
+        margin: px 0px 0px 0px;
+        flex-direction: column;
+        padding: 60px 0px 0px 100px;
+    }
+
+    .firstinfo h1 {
+        width: 270px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 2.25rem;
+        line-height: 41px;
+        word-spacing: 0.5px;
+        margin: 0px 0px 0px -80px;
+        padding: 0px 0px 10px 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .firstinfo span {
+        color: #ff6600;
+        font-style: italic;
+        font-weight: 400;
+    }
+
+    .firstinfo p {
+        width: 290px;
+        color: #fff;
+        font-size: 15px;
+        line-height: 26px;
+        margin: 0px 0px 0px -80px;
+        padding: 0px 0px 0px 0px;
+        word-spacing: 0.5px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .veeru {
+        margin: 60px 0px 0px -120px;
+        padding: 15px 0px 15px 40px;
+    }
+
+    .veeruinput {
+        padding: 12px 100px 12px 20px;
+    }
+
+    ::placeholder {
+        color: #848484;
+        font-size: 14px;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .jeeru {
+        margin: -10px 0px 0px -100px;
+        padding: 15px 0px 15px 20px;
+    }
+
+    .jeerubtn {
+        color: #fff;
+        border: none;
+        font-size: 0..9375rem;
+        background-color: #ff6600;
+        text-transform: uppercase;
+        margin: 0px 0px 0px 0px;
+        padding: 16px 46px 16px 46px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    /*----------------------- END OF SEARCH SECTION --------------------------------*/
+    .last {
+        position: relative;
+    }
+
+    .map {
+        margin: 4px 0px 0px 0px;
+        height: 450px;
+        width: 100%;
+    }
+
+    .address {
+        display: none;
+    }
+
+    /*----------------------- END OF MAP SECTION --------------------------------*/
+    .footer {
+        height: 250px;
+        background-color: #272735;
+    }
+
+    .footerhead {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footerimg {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .listoficon ul {
+        display: flex;
+        justify-content: center;
+        margin: 0px 0px 0px 5px;
+        padding: 50px 0px 0px 0px;
+    }
+
+    .listoficon li {
+        list-style: none;
+        padding: 5px 5px 5px 5px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .fivemember {
+        border: none;
+        font-size: 22px;
+        color: #6d6c6c;
+        background-color: #fff;
+        transition: all 0.2s ease;
+        padding: 12px 12px 12px 12px;
+    }
+
+    .fivemember:hover {
+        color: #fff;
+        background-color: #ff6600;
+    }
+
+    /*----------------------- END OF FIRST FOOTER SECTION --------------------------------*/
+    .copyright {
+        height: 180px;
+        width: 100%;
+        background: #2a2a37;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .copyrighthead h1 {
+        width: 250px;
+        font-size: 1rem;
+        color: #848484;
+        line-height: 26px;
+        font-weight: 400;
+        text-align: left;
+        word-spacing: 0.5px;
+        letter-spacing: 0.5px;
+        padding: 30px 0px 30px 60px;
+        margin: 0px 0px 0px 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .copyright span {
+        color: #ff6600;
+    }
+
+    .uparrow {
+        color: #fff;
+        font-size: 22px;
+        background-color: #ff6600;
+        padding: 12px 12px 12px 12px;
+        position: absolute;
+        top: 120px;
+        right: 140px;
+    }
+
+    /*----------------------- END OF FOOTER SECTION --------------------------------*/
+}

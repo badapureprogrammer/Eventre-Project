@@ -1,0 +1,1353 @@
+body {
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+.header {
+    z-index: 5;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background-color: #ffffff;
+}
+
+.logo {
+    height: 29px;
+    font-size: 18px;
+    margin: 0px 0px 0px 0px;
+    padding: 35px 40px 35px 50px;
+    background-color: #ffffff;
+    border-right: 2px solid #cecdcd;
+}
+
+.emptydiv {
+    height: 50px;
+    width: 10px;
+}
+
+.menulist ul {
+    height: 60px;
+    display: flex;
+    list-style: none;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+ul li {
+    font-size: 16.96px;
+    padding: 25px 0px 19.2px 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+li a {
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #ff6600;
+}
+
+.home {
+    color: #ff6600;
+}
+
+.dash {
+    margin: 0px 0px 0px 16px;
+}
+
+.dashlast {
+    margin: 0px 50px 0px 16px;
+}
+
+.ticket {
+    width: 180px;
+    display: flex;
+    padding: 34px 32px;
+    margin: 0px 0px 0px 20px;
+    background-color: #ff6600;
+}
+
+.ticket img {
+    padding: 0px 16px 0px 0px;
+}
+
+.buy {
+    font-weight: 400;
+    color: #ffffff;
+    padding: 5px 0px 2px 16px;
+    border-left: 0.5px solid #ffffff;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*----------------------- END OF MENU BAR SECTION --------------------------------*/
+.shortimg {
+    z-index: 1;
+    height: 150px;
+    width: 100%;
+    position: relative;
+    padding: 200px 0px 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../EventreProject_Images/page-title-bg.jpg");
+}
+
+.shortimg h1 {
+    color: #fff;
+    font-size: 2.25rem;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    padding: 0px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.shortimg p {
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.shortimglayer {
+    z-index: 2;
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 200px 0px 0px 0px;
+    background-color: rgba(41, 27, 63, 0.6);
+}
+
+/*----------------------- END OF SHORTINFO SECTION --------------------------------*/
+.tickhead h1 {
+    color: #222222;
+    font-size: 2.25rem;
+    line-height: 1.2;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    margin: 80px 0px 10px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.tickhead span {
+    color: #ff6600;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.tickhead p {
+    color: #848484;
+    font-size: 1rem;
+    line-height: 26px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 50px 0px;
+}
+
+.pricehead {
+    width: 330px;
+    height: fit-content;
+    background: #fafafa;
+    border: 1px solid #e5e5e5;
+    font-family: "Montserrat", sans-serif;
+    margin: 0px 20px 0px 20px;
+}
+
+.standard {
+    color: #fff;
+    width: 330px;
+    height: fit-content;
+    background: #ff6600;
+    border: 1px solid #e5e5e5;
+    font-family: "Montserrat", sans-serif;
+    margin: 0px 20px 0px 20px;
+    box-shadow: 10px 10px 10px #c4c1c1;
+}
+
+.pricehead h5 {
+    width: 200px;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 50px;
+    margin: 0px 0px 0px 50px;
+    padding: 20px 0px 0px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.standard h5 {
+    width: 200px;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 50px;
+    margin: 0px 0px 0px 50px;
+    padding: 20px 0px 0px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.pricehead h4 {
+    color: #222222;
+    font-size: 3.625rem;
+    line-height: 1.2;
+    font-weight: 400;
+    padding: 25px 0px 0px 0px;
+    margin: 0px 0px 0px 38px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.standard h4 {
+    color: #fff;
+    font-size: 3.625rem;
+    line-height: 1.2;
+    font-weight: 400;
+    padding: 25px 0px 0px 0px;
+    margin: 0px 0px 0px 38px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.dollar {
+    font-size: 25px;
+}
+
+.pricehead p {
+    font-size: 1rem;
+    color: #848484;
+    line-height: 26px;
+    padding: 0px 0px 20px 0px;
+    margin: 0px 0px 0px 38px;
+    font-family: "Roboto", sans-serif;
+}
+
+.standard p {
+    font-size: 1rem;
+    color: #fff;
+    line-height: 26px;
+    padding: 0px 0px 20px 0px;
+    margin: 0px 0px 0px 38px;
+    font-family: "Roboto", sans-serif;
+}
+
+.allticket {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.pricebody {
+    width: 330px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    height: fit-content;
+    font-family: "Roboto", sans-serif;
+    margin: 0px 20px 0px 20px;
+}
+
+.standardbody {
+    width: 330px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    height: fit-content;
+    font-family: "Roboto", sans-serif;
+    margin: 0px 20px 0px 20px;
+    box-shadow: 10px 10px 10px #c4c1c1;
+}
+
+.firstlistitem {
+    margin: 30px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
+}
+
+.firstlistitemstand {
+    margin: 30px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
+}
+
+.standardbody li {
+    color: #848484;
+    font-size: 1rem;
+    list-style: none;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 10px;
+}
+
+.pricebody li {
+    color: #848484;
+    font-size: 1rem;
+    list-style: none;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 10px;
+}
+
+.right {
+    color: #ff6600;
+    font-size: 18px;
+    margin: 0px 10px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.wrong {
+    color: #848484;
+    font-size: 18px;
+    margin: 0px 10px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.pricingticket {
+    border: #848484;
+    padding: 15px 40px 15px 40px;
+    margin: 0px 0px 0px 38px;
+}
+
+.pricingticket button {
+    outline: none;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 0.9375rem;
+    background: transparent;
+    padding: 15px 40px 15px 40px;
+    margin: 20px 0px 40px 0px;
+    transition: all 1s ease;
+    border: 0.5px solid #e5e5e5;
+    font-family: "Montserrat", sans-serif;
+}
+
+.pricingticket:hover button {
+    color: #fff;
+    background-color: #ff6600;
+}
+
+.pricingticket .middlebtn {
+    color: #fff;
+    background-color: #ff6600;
+}
+
+.pricingticket .middlebtn:hover {
+    background-color: #a5541e;
+}
+
+/*----------------------- END OF PRICING SECTION --------------------------------*/
+#twobucket {
+    margin: 50px 0px 0px 0px;
+    display: flex;
+}
+
+.firstbucket {
+    background-image: url("../EventreProject_Images/feature-background.jpg");
+    height: 550px;
+    width: 960px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.firstbgcolor {
+    height: 550px;
+    width: 960px;
+    position: absolute;
+    background: rgb(255, 102, 0, 0.83);
+}
+
+.testimonials {
+    margin-left: -250px;
+}
+
+.shortcom {
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.syembol {
+    color: #fff;
+    font-size: 3.25rem;
+}
+
+.rowone {
+    color: #fff;
+    display: flex;
+    border: none;
+    justify-content: center;
+    padding: 35px 35px 0px 35px;
+}
+
+.rowtwo {
+    color: #fff;
+    display: flex;
+    border: none;
+    justify-content: center;
+    padding: 0px 35px 35px 35px;
+}
+
+.boxone {
+    text-align: center;
+    border-right: 0.5px solid #c2bebe;
+    padding: 50px 50px 50px 51px;
+}
+
+.boxtwo {
+    text-align: center;
+    border: none;
+    padding: 50px 50px 50px 48px;
+}
+
+.boxthree {
+    text-align: center;
+    border-top: 0.5px solid #c2bebe;
+    border-right: 0.5px solid #c2bebe;
+    padding: 50px 54px 50px 50px;
+}
+
+.boxfour {
+    text-align: center;
+    border-top: 0.5px solid #c2bebe;
+    padding: 50px 24px 50px 50px;
+}
+
+/*----------------------- END OF FIRST BUCKET SECTION --------------------------------*/
+.secondbucket {
+    background-image: url("../EventreProject_Images/registration-background.jpg");
+    height: 550px;
+    width: 960px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.secondbgcolor {
+    height: 550px;
+    width: 960px;
+    position: absolute;
+    background: rgb(0, 0, 0, 0.7);
+}
+
+.shortform h2 {
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 2.25rem;
+    margin: 0px 0px 10px 85px;
+    padding: 125px 0px 0px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.eventrestyle {
+    font-weight: 400;
+    color: #ff6600;
+    font-style: italic;
+    margin: 0px 0px 0px 0px
+}
+
+.shortform p {
+    color: #b3b3b3;
+    line-height: 1;
+    margin: 0px 0px 0px 85px;
+    padding: 0px 0px 0px 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.detailt {
+    color: #fff;
+    font-size: 0.9375rem;
+    border: 1px solid #b3b3b3;
+    background: transparent;
+    padding: 15px 50px 15px 20px;
+    margin: 50px 30px 20px 85px;
+    font-family: "Roboto", sans-serif;
+}
+
+.detaile {
+    color: #fff;
+    font-size: 0.9375rem;
+    border: 1px solid #b3b3b3;
+    background: transparent;
+    padding: 15px 50px 15px 20px;
+    margin: 50px 0px 20px 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.detailn {
+    color: #fff;
+    font-size: 0.9375rem;
+    border: 1px solid #b3b3b3;
+    background: transparent;
+    padding: 15px 50px 15px 20px;
+    margin: 0px 30px 20px 85px;
+    font-family: "Roboto", sans-serif;
+}
+
+::placeholder {
+    color: #b3b3b3;
+    font-family: "Roboto", sans-serif;
+}
+
+.detailty {
+    color: #fff;
+    font-size: 0.9375rem;
+    background: transparent;
+    border: 1px solid #b3b3b3;
+    padding: 15px 133px 15px 20px;
+    margin: 0px 30px 20px 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.now {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #222222;
+    background: #fff;
+    line-height: 1.5;
+    padding: 13px 50px 13px 40px;
+    margin: 20px 0px 0px 85px;
+    border: 1px solid transparent;
+    transition: all 0.8s ease;
+    font-family: "Montserrat", sans-serif;
+}
+
+.now:hover {
+    color: #fff;
+    background-color: #ff6600;
+}
+
+/*----------------------- END OF BUCKET SECTION --------------------------------*/
+.shortpara {
+    height: 250px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../EventreProject_Images/newsletter-bg.jpg");
+}
+
+.emtydiv {
+    top: 0px;
+    width: 100%;
+    height: 250px;
+    opacity: 0.6;
+    position: absolute;
+    background-color: #000000;
+}
+
+.firstinfo {
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    word-spacing: 1px;
+    margin: px 0px 0px 0px;
+    padding: 60px 0px 0px 100px;
+}
+
+.firstinfo h1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 2.25rem;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 10px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.firstinfo span {
+    color: #ff6600;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.firstinfo p {
+    color: #fff;
+    line-height: 26px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    word-spacing: 0.5px;
+    font-family: "Roboto", sans-serif;
+}
+
+.veeru {
+    margin: 10px 0px 0px 50px;
+    padding: 15px 0px 15px 40px;
+}
+
+.veeruinput {
+    padding: 13px 220px 13px 20px;
+}
+
+::placeholder {
+    color: #848484;
+    font-size: 14px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.jeeru {
+    margin: 10px 0px 0px 20px;
+    padding: 15px 0px 15px 20px;
+}
+
+.jeerubtn {
+    color: #fff;
+    border: none;
+    font-size: 0..9375rem;
+    background-color: #ff6600;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 0px;
+    padding: 18px 52px 18px 52px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*----------------------- END OF SHORT DIVISION SECTION --------------------------------*/
+.last {
+    position: relative;
+}
+
+.map {
+    margin: 4px 0px 0px 0px;
+    height: 450px;
+    width: 1520px;
+}
+
+.address {
+    color: #fff;
+    height: 220px;
+    width: fit-content;
+    position: absolute;
+    top: 80px;
+    left: 230px;
+    padding: 45px 40px 45px 40px;
+    margin: 0px 0px 0px 0px;
+    background-color: #ff6600;
+}
+
+.address h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    margin: 0px 0px 0px 26px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.address li {
+    list-style: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.shortadd {
+    color: #fff !important;
+    font-size: 16px;
+}
+
+.addandnum {
+    color: #fff;
+}
+
+.direction {
+    padding: 20px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.get {
+    border: none;
+    color: #222222;
+    font-weight: 400;
+    background-color: #fff;
+    padding: 15px 40px 15px 40px;
+    margin: 0px 0px 0px 30px;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.5s ease;
+}
+
+.get:hover {
+    color: #fff;
+    background-color: #ff6600;
+}
+
+/*----------------------- END OF MAP SECTION --------------------------------*/
+.footer {
+    background-color: #272735;
+    height: 300px;
+}
+
+.footerhead {
+    display: flex;
+    justify-content: center;
+}
+
+.footerimg {
+    padding: 60px 0px 30px 0px;
+}
+
+.listoficon ul {
+    display: flex;
+    justify-content: center;
+}
+
+.listoficon li {
+    list-style: none;
+}
+
+.fivemember {
+    border: none;
+    font-size: 20px;
+    color: #6d6c6c;
+    background-color: #fff;
+    transition: all 0.2s ease;
+    padding: 14px 14px 14px 14px;
+}
+
+.fivemember:hover {
+    color: #fff;
+    background-color: #ff6600;
+}
+
+.copyright {
+    height: 80px;
+    width: 100%;
+    background: #2a2a37;
+    position: relative;
+}
+
+.copyrighthead h1 {
+    font-size: 1rem;
+    color: #848484;
+    line-height: 26px;
+    font-weight: 400;
+    padding: 30px 0px 30px 120px;
+    margin: 0px 0px 0px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.copyright span {
+    color: #ff6600;
+}
+
+.uparrow {
+    color: #fff;
+    font-size: 24px;
+    background-color: #ff6600;
+    padding: 12px 12px 12px 12px;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+
+/*----------------------- END OF FOOTER SECTION --------------------------------*/
+/*-------------------------------------------------- END OF CSS SECTION HERE -------------------------------------------------------*/
+
+/*-------------------------------------------------- START A MEDIA QUERY SECTION ---------------------------------------------------*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+        margin: 0px;
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        position: absolute;
+        height: fit-content;
+        flex-direction: column;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .logo {
+        height: 24px;
+        width: 120px;
+        border: none;
+        margin: 10px 0px 0px 100px;
+        padding: 0px 0px 10px 0px;
+    }
+
+    .emptydiv {
+        height: 0px;
+        width: 0px;
+    }
+
+    .menulist ul {
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+    }
+
+    .menulist li {
+        font-size: 14px;
+        text-align: left;
+        margin: 0px 0px 0px 100px;
+        padding: 0px 0px 15px 0px;
+    }
+
+    .dash {
+        display: none;
+    }
+
+    .dashlast {
+        display: none;
+    }
+
+    .ticket {
+        width: 100%;
+        display: flex;
+        background-color: #ff6600;
+        padding: 5px 0px 5px 0px;
+        margin: 155px 0px 0px 0px;
+    }
+
+    .ticket img {
+        padding: 0px 14px 0px 80px;
+    }
+
+    /*----------------------- END OF MENU BAR SECTION --------------------------------*/
+    .shortimg {
+        z-index: 1;
+        height: 150px;
+        width: 100%;
+        position: relative;
+        padding: 400px 0px 0px 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("../EventreProject_Images/page-title-bg.jpg");
+    }
+
+    .shortimg h1 {
+        color: #fff;
+        font-size: 2.25rem;
+        font-weight: 500;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        padding: 0px 0px 10px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .shortimg p {
+        color: #fff;
+        font-size: 1rem;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .shortimglayer {
+        z-index: 2;
+        height: 150px;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding: 400px 0px 0px 0px;
+        background-color: rgba(41, 27, 63, 0.6);
+    }
+
+    /*----------------------- END OF SHORTINFO SECTION --------------------------------*/
+    #twobucket {
+        display: flex;
+        margin: 40px 0px 80px 0px;
+        flex-direction: column;
+    }
+
+    .firstbucket {
+        height: 500px;
+        width: 100%;
+        background-image: url("../EventreProject_Images/feature-background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .firstbgcolor {
+        height: 500px;
+        width: 100%;
+        position: absolute;
+        background: rgb(255, 102, 0, 0.83);
+    }
+
+    .testimonials {
+        padding: 80px 0px 80px 0px;
+    }
+
+    .rowone {
+        color: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .boxone {
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        border-right: 0.5px solid #c2bebe;
+        padding: 20px 20px 0px 20px;
+        margin: 30px 0px 0px 270px;
+    }
+
+    .boxtwo {
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        border: none;
+        padding: 20px 20px 0px 20px;
+        margin: 30px 30px 0px 0px;
+    }
+
+    .boxthree {
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        border-top: 0.5px solid #c2bebe;
+        border-right: 0.5px solid #c2bebe;
+        padding: 20px 40px 0px 30px;
+        margin: 0px 0px 30px 240px;
+    }
+
+    .boxfour {
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        border-top: 0.5px solid #c2bebe;
+        padding: 20px 0px 0px 40px;
+        margin: 0px 31px 30px 0px;
+    }
+
+    .syembol {
+        color: #fff;
+        font-size: 50px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .shortcom {
+        color: #fff;
+        font-size: 12px;
+        line-height: 1.5rem;
+        font-family: "Roboto", sans-serif;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .secondbucket {
+        background-image: url("../EventreProject_Images/registration-background.jpg");
+        height: 650px;
+        width: 100%;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 0;
+    }
+
+    .secondbgcolor {
+        height: 650px;
+        width: 100%;
+        position: absolute;
+        background: rgb(0, 0, 0, 0.7);
+    }
+
+    .parainfo {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .shortform h2 {
+        width: 200px;
+        color: #fff;
+        font-weight: 500;
+        line-height: 1.2;
+        font-size: 2.25rem;
+        margin: 0px 0px 10px 30px;
+        padding: 80px 0px 0px 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .eventrestyle {
+        font-weight: 400;
+        color: #ff6600;
+        font-style: italic;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .shortform p {
+        width: 200px;
+        color: #b3b3b3;
+        line-height: 20px;
+        word-spacing: 0.5px;
+        margin: 0px 0px 0px 30px;
+        padding: 0px 0px 0px 0px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .detailt {
+        color: #fff;
+        font-size: 0.9375rem;
+        border: 1px solid #b3b3b3;
+        background: transparent;
+        margin: 30px 30px 10px 30px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .detaile {
+        color: #fff;
+        font-size: 0.9375rem;
+        border: 1px solid #b3b3b3;
+        background: transparent;
+        margin: 10px 30px 10px 30px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .detailn {
+        color: #fff;
+        font-size: 0.9375rem;
+        border: 1px solid #b3b3b3;
+        background: transparent;
+        margin: 10px 30px 10px 30px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .detailty {
+        color: #fff;
+        font-size: 0.9375rem;
+        background: transparent;
+        border: 1px solid #b3b3b3;
+        margin: 10px 30px 10px 30px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .now {
+        font-size: 1rem;
+        font-weight: 400;
+        color: #222222;
+        background: #fff;
+        line-height: 1.5;
+        padding: 15px 40px 15px 40px;
+        margin: 20px 0px 0px 30px;
+        border: 1px solid transparent;
+        transition: all 0.4s ease;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .now:hover {
+        color: #fff;
+        background-color: #ff6600;
+    }
+
+    /*----------------------- END OF BUCKET SECTION --------------------------------*/
+    .allticket {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pricehead {
+        width: 300px;
+        height: fit-content;
+        background: #fafafa;
+        border: 1px solid #e5e5e5;
+        font-family: "Montserrat", sans-serif;
+        margin: 0px 20px 0px 10px;
+    }
+
+    .pricebody {
+        width: 300px;
+        background: #fff;
+        border: 1px solid #e5e5e5;
+        height: fit-content;
+        font-family: "Roboto", sans-serif;
+        margin: 0px 20px 30px 10px;
+    }
+
+    .standard {
+        color: #fff;
+        width: 300px;
+        height: fit-content;
+        background: #ff6600;
+        border: 1px solid #e5e5e5;
+        font-family: "Montserrat", sans-serif;
+        margin: 0px 20px 0px 10px;
+        box-shadow: 6px 0px 10px #c4c1c1;
+    }
+
+    .standardbody {
+        width: 300px;
+        background: #fff;
+        border: 1px solid #e5e5e5;
+        height: fit-content;
+        font-family: "Roboto", sans-serif;
+        margin: 0px 20px 30px 10px;
+        box-shadow: 3px 3px 10px #c4c1c1;
+    }
+
+    /*----------------------- END OF PRICING SECTION --------------------------------*/
+    .artno3 {
+        margin: 50px 0px 0px 0px;
+    }
+
+    .twodivleft {
+        position: relative;
+        border: none;
+    }
+
+    .bgimg {
+        height: 500px;
+        width: 100%;
+    }
+
+    .opac {
+        top: 0px;
+        width: 100%;
+        height: 500px;
+        opacity: 0.6;
+        position: absolute;
+        background-color: black;
+    }
+
+    .infoofdata {
+        position: absolute;
+        z-index: 2;
+        top: 120px;
+        left: 260px;
+    }
+
+    .infoofdata h1 {
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 42px;
+        width: 250px;
+        padding: 0px 0px -50px 0px;
+        margin: -10px 0px 15px -240px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .infoofdata span {
+        color: #ff6600;
+        font-style: italic;
+    }
+
+    .infoofdata p {
+        color: #e6e6e6;
+        font-size: 1rem;
+        line-height: 26px;
+        width: 280px;
+        padding: 0px 0px 0px 0px;
+        margin: 20px 0px 45px -240px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .speakerticket {
+        display: none;
+    }
+
+    .karanbtn {
+        color: #ffffff;
+        text-align: center;
+        border: #ff6600;
+        background-color: #ff6600;
+        padding: 18px 45px 18px 45px;
+        margin: 0px 0px 0px -240px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .karanbtn:hover {
+        background-color: #e65c00;
+    }
+
+    /*----------------------- END OF TICKET SECTION --------------------------------*/
+    .shortpara {
+        height: 450px;
+        width: 100%;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: -79.5px;
+    }
+
+    .emtydiv {
+        top: 0px;
+        width: 100%;
+        height: 450px;
+        opacity: 0.6;
+        position: absolute;
+        background-color: #000000;
+    }
+
+    .firstinfo {
+        z-index: 2;
+        display: flex;
+        position: absolute;
+        word-spacing: 1px;
+        margin: 0px 0px 0px 0px;
+        flex-direction: column;
+        padding: 60px 0px 0px 100px;
+    }
+
+    .firstinfo h1 {
+        width: 270px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 2.25rem;
+        line-height: 41px;
+        word-spacing: 0.5px;
+        margin: 0px 0px 0px -80px;
+        padding: 0px 0px 10px 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .firstinfo span {
+        color: #ff6600;
+        font-style: italic;
+        font-weight: 400;
+    }
+
+    .firstinfo p {
+        width: 290px;
+        color: #fff;
+        font-size: 15px;
+        line-height: 26px;
+        margin: 0px 0px 0px -80px;
+        padding: 0px 0px 0px 0px;
+        word-spacing: 0.5px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .veeru {
+        margin: 60px 0px 0px -120px;
+        padding: 15px 0px 15px 40px;
+    }
+
+    .veeruinput {
+        padding: 12px 100px 12px 20px;
+    }
+
+    ::placeholder {
+        color: #848484;
+        font-size: 14px;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .jeeru {
+        margin: -10px 0px 0px -100px;
+        padding: 15px 0px 15px 20px;
+    }
+
+    .jeerubtn {
+        color: #fff;
+        border: none;
+        font-size: 0..9375rem;
+        background-color: #ff6600;
+        text-transform: uppercase;
+        margin: 0px 0px 0px 0px;
+        padding: 16px 46px 16px 46px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    /*----------------------- END OF SEARCH SECTION --------------------------------*/
+    .last {
+        position: relative;
+    }
+
+    .map {
+        margin: 4px 0px 0px 0px;
+        height: 450px;
+        width: 100%;
+    }
+
+    .address {
+        display: none;
+    }
+
+    /*----------------------- END OF MAP SECTION --------------------------------*/
+    .footer {
+        height: 250px;
+        background-color: #272735;
+    }
+
+    .footerhead {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footerimg {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .listoficon ul {
+        display: flex;
+        justify-content: center;
+        margin: 0px 0px 0px 5px;
+        padding: 50px 0px 0px 0px;
+    }
+
+    .listoficon li {
+        list-style: none;
+        padding: 5px 5px 5px 5px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .fivemember {
+        border: none;
+        font-size: 22px;
+        color: #6d6c6c;
+        background-color: #fff;
+        transition: all 0.2s ease;
+        padding: 12px 12px 12px 12px;
+    }
+
+    .fivemember:hover {
+        color: #fff;
+        background-color: #ff6600;
+    }
+
+    /*----------------------- END OF FIRST FOOTER SECTION --------------------------------*/
+    .copyright {
+        height: 180px;
+        width: 100%;
+        background: #2a2a37;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .copyrighthead h1 {
+        width: 250px;
+        font-size: 1rem;
+        color: #848484;
+        line-height: 26px;
+        font-weight: 400;
+        text-align: left;
+        word-spacing: 0.5px;
+        letter-spacing: 0.5px;
+        padding: 30px 0px 30px 60px;
+        margin: 0px 0px 0px 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .copyright span {
+        color: #ff6600;
+    }
+
+    .uparrow {
+        color: #fff;
+        font-size: 22px;
+        background-color: #ff6600;
+        padding: 12px 12px 12px 12px;
+        position: absolute;
+        top: 120px;
+        right: 140px;
+    }
+
+    /*----------------------- END OF FOOTER  SECTION --------------------------------*/
+}

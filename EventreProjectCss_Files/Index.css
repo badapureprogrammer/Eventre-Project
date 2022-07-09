@@ -1,0 +1,3133 @@
+body {
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+#mainheader {
+    background-image: url("../EventreProject_Images/homepage-one-banner.jpg");
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+
+.header {
+    z-index: 5;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background-color: #ffffff;
+}
+
+.logo {
+    height: 29px;
+    font-size: 18px;
+    margin: 0px 0px 0px 0px;
+    padding: 35px 40px 35px 50px;
+    background-color: #ffffff;
+    border-right: 2px solid #cecdcd;
+}
+
+.emptydiv {
+    height: 50px;
+    width: 10px;
+}
+
+.menulist ul {
+    height: 60px;
+    display: flex;
+    list-style: none;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+ul li {
+    font-size: 16.96px;
+    padding: 25px 0px 19.2px 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+li a {
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #ff6600;
+}
+
+.home {
+    color: #ff6600;
+}
+
+.dash {
+    margin: 0px 0px 0px 16px;
+}
+
+.dashlast {
+    margin: 0px 50px 0px 16px;
+}
+
+.ticket {
+    width: 180px;
+    display: flex;
+    padding: 34px 32px;
+    margin: 0px 0px 0px 20px;
+    background-color: #ff6600;
+}
+
+.ticket img {
+    padding: 0px 16px 0px 0px;
+}
+
+.buy {
+    font-weight: 400;
+    color: #ffffff;
+    padding: 5px 0px 2px 16px;
+    border-left: 0.5px solid #ffffff;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*----------------------- END OF MENU BAR SECTION --------------------------------*/
+.shortdetails {
+    position: absolute;
+    margin-left: 250px;
+    top: 240px;
+}
+
+.shortdetails p {
+    z-index: 0;
+    font-size: 18px;
+    color: #848484;
+    margin: 0px 0px 0px 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.darkhead {
+    color: #ff6600;
+    font-size: 5.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 20px 0px 5px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.shortdetails h2 {
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 1.2;
+    font-style: italic;
+    font-size: 4.625rem;
+    margin: 0px 0px 5px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.shortdetails h6 {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin: 20px 0px 50px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.shortdetails button {
+    font-size: 16px;
+    font-weight: 400;
+    border: transparent;
+    padding: 15px 40px 15px 40px;
+    background-color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+}
+
+button:hover {
+    color: #ffffff;
+    background-color: #ff6600;
+}
+
+/*----------------------- END OF SHORTINFO SECTION --------------------------------*/
+#firstsection {
+    z-index: 0;
+    border: none;
+    width: fit-content;
+    margin: 20px 0px 20px 0px;
+    padding: 0px 0px 0px 200px;
+}
+
+.textandinfo {
+    margin: auto;
+    display: flex;
+}
+
+.speakandinfo {
+    position: relative;
+}
+
+.backinimg {
+    width: 350px;
+    height: 350px;
+    color: #212529;
+}
+
+.speakerone {
+    top: 40px;
+    left: 50px;
+    position: absolute;
+}
+
+.frontofimg {
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+}
+
+.frontofimg {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+}
+
+.allinfo h3 {
+    border: none;
+    font-weight: 550;
+    color: #222222;
+    font-size: 2.5rem;
+    word-spacing: 1px;
+    letter-spacing: 0.7;
+    margin: 20px 0px 3px 50px;
+    padding: 0px 0px 3px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.eventre {
+    font-weight: 400;
+    color: #ff6600;
+    font-style: italic;
+}
+
+.blankline {
+    height: 3px;
+    width: 60px;
+    border: none;
+    background-color: #ff6600;
+    margin: 0px 0px 38px 50px;
+    padding: 0px 0px 0px 0px;
+}
+
+.allinfo .para {
+    border: none;
+    width: 690px;
+    font-size: 1rem;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 25px 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+.allinfo .paratwo {
+    border: none;
+    width: 750px;
+    font-size: 1rem;
+    color: #848484;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 35px 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+.karan {
+    color: #ffffff;
+    text-align: center;
+    border: #ff6600;
+    background-color: #ff6600;
+    padding: 19px 40px 19px 40px;
+    margin: 0px 10px 0px 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.karan:hover {
+    background-color: #e65c00;
+}
+
+.arjun {
+    border: #ff6600;
+    text-align: center;
+    background-color: #fff;
+    border: 0.5px solid gray;
+    padding: 18px 40px 18px 40px;
+    margin: 0px 0px 0px 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.arjun:hover {
+    color: #fff;
+    background-color: #ff6600;
+}
+
+/*----------------------- END OF FIRST SECTION --------------------------------*/
+#mainbody {
+    height: 1050px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../EventreProject_Images/portfoliobackinimg.jpg");
+}
+
+.head {
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.25rem;
+    text-align: center;
+    padding: 60px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.speaking {
+    color: #ff6600;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.onelinefirst {
+    color: #fff;
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.rowonep {
+    display: flex;
+    justify-content: center;
+}
+
+.data_person {
+    width: 257px;
+    text-align: center;
+    margin: 10px 20px 20px 20px;
+    border: 6px solid #bdbbbb;
+    background-color: #f8f9fa;
+}
+
+.first {
+    height: 270px;
+    width: 256px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0px 0px 0px 0px;
+}
+
+#flex {
+    display: block;
+}
+
+.first img {
+    width: 256px;
+    height: 270px;
+}
+
+.overlay {
+    opacity: 0;
+    position: absolute;
+    background-color: #ff6600;
+    transition: all 1s ease;
+}
+
+.first:hover .overlay {
+    opacity: 0.9;
+}
+
+.iconlist {
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    margin: 70px 0px 0px 0px;
+    transform: translate(-50%, -50%);
+}
+
+.overlaybottom {
+    left: 0;
+    height: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.first:hover .overlaybottom {
+    height: 100%;
+}
+
+.iconf {
+    font-weight: 600;
+    font-size: 30px;
+    border: 2px solid #fff;
+    text-align: center;
+    padding: 8px 8px 8px 8px;
+    margin: 5px 5px 5px 5px;
+}
+
+.iconf:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.icont {
+    font-weight: 600;
+    font-size: 30px;
+    border: 2px solid #fff;
+    text-align: center;
+    padding: 8px 8px 8px 8px;
+    margin: 5px 5px 5px 5px;
+}
+
+.icont:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.iconl {
+    font-weight: 600;
+    font-size: 30px;
+    border: 2px solid #fff;
+    text-align: center;
+    padding: 8px 8px 8px 8px;
+    margin: 5px 5px 5px 5px;
+}
+
+.iconl:hover {
+    color: #000000;
+    background-color: #fff;
+}
+
+.iconp {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid #fff;
+    padding: 8px 8px 8px 8px;
+    margin: 5px 5px 5px 5px;
+}
+
+.iconp:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.h_name {
+    color: #222222;
+    font-size: 22px;
+    margin: 10px 0px 10px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.h_name:hover {
+    color: #ff6600;
+}
+
+.h_post {
+    color: #222222;
+    font-family: "Roboto", sans-serif;
+    margin: 0px 0px 10px 0px;
+}
+
+/*----------------------- END OF PORTFOLIO SECTION --------------------------------*/
+.timetableofemployee {
+    height: 850px;
+    padding: 0px 0px 0px 0px;
+    margin: 30px 0px 60px 0px;
+    box-sizing: border-box;
+}
+
+.bgtable {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../EventreProject_Images/schedule-bg.png");
+}
+
+.childone h1 {
+    color: #222222;
+    font-size: 2.25rem;
+    line-height: 1.2;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    margin: 0px 0px 20px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.childone span {
+    color: #ff6600;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.childone p {
+    color: #848484;
+    font-size: 1rem;
+    line-height: 26px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.childtwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
+}
+
+.dayquote {
+    margin: 10px 8px 10px 8px;
+    border: 1px solid #e5e5e5;
+    font-family: "Montserrat", sans-serif;
+}
+
+.dayquote h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    background-color: #ff6600;
+    padding: 20px 30px 5px 30px;
+    margin: 0px 0px 0px 0px;
+}
+
+.dayquote p {
+    color: #848484;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    margin: 0px 0px 0px 0px;
+}
+
+.childthree {
+    display: flex;
+    justify-content: center;
+}
+
+.childthreeone {
+    width: 1000px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ff6600;
+    border: 1px solid red;
+    padding: 0px 0px 0px 0px;
+    margin: 40px 0px 0px 0px;
+}
+
+.childthreeone h4 {
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    padding: 10px 30px 10px 30px;
+    margin: 0px 0px 0px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.shedule {
+    text-align: center;
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 0px 0px;
+    margin: 10px 0px 0px 251px;
+}
+
+.time_9 {
+    display: flex;
+    width: 150px;
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 80px;
+}
+
+.clock {
+    text-align: left;
+    padding: 24px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.time_9 p {
+    font-size: 0.9rem;
+    line-height: 26px;
+    padding: 20px 0px 0px 5px;
+    margin: 0px 0px 0px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.img_professor {
+    width: 220px;
+    display: flex;
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 80px;
+}
+
+.speaker {
+    border-radius: 50%;
+    border: 3px solid #848484;
+}
+
+.professor {
+    font-size: 1rem;
+    line-height: 26px;
+    font-family: "Montserrat", sans-serif;
+    padding: 10px 0px 0px 5px;
+}
+
+.intro {
+    width: 220px;
+    padding: 20px 0px 0px 0px;
+    margin: 0px 0px 0px 55px;
+}
+
+.intropara {
+    width: 220px;
+    font-size: 1rem;
+    line-height: 26px;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.avenue {
+    width: 220px;
+    padding: 20px 0px 0px 0px;
+    margin: 0px 0px 0px 45px;
+}
+
+.avenuepara {
+    width: 220px;
+    font-size: 1rem;
+    line-height: 26px;
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*----------------------- END OF TIMETABLE SECTION --------------------------------*/
+article {
+    width: 100vw;
+}
+
+#twobucket {
+    margin: 0px 0px 0px 0px;
+    display: flex;
+}
+
+.firstbucket {
+    background-image: url("../EventreProject_Images/feature-background.jpg");
+    /* background-image: url("../FIRSTPROJECT/FirstProjectImages/feature-background.jpg"); */
+    height: 550px;
+    width: 960px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.firstbgcolor {
+    height: 550px;
+    width: 100%;
+    position: absolute;
+    background: rgb(255, 102, 0, 0.83);
+}
+
+/* .testimonials{
+    margin-left: -250px;
+} */
+.shortcom {
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.syembol {
+    color: #fff;
+    font-size: 3.25rem;
+}
+
+.rowone {
+    color: #fff;
+    display: flex;
+    border: none;
+    justify-content: center;
+    /* padding: 35px 35px 0px 35px; */
+    margin: 0px 0px 0px 0px;
+}
+
+.rowtwo {
+    color: #fff;
+    display: flex;
+    border: none;
+    justify-content: center;
+    /* padding: 0px 35px 35px 35px; */
+    margin: 0px 0px 0px 0px;
+}
+
+.boxone {
+    text-align: center;
+    border-right: 0.5px solid #c2bebe;
+    padding: 50px 50px 50px 51px;
+    margin: 30px 0px 0px 30px;
+}
+
+.boxtwo {
+    text-align: center;
+    border: none;
+    padding: 50px 50px 50px 48px;
+    margin: 30px 30px 0px 0px;
+}
+
+.boxthree {
+    text-align: center;
+    border-top: 0.5px solid #c2bebe;
+    border-right: 0.5px solid #c2bebe;
+    padding: 50px 56px 50px 50px;
+    margin: 0px 0px 30px 30px;
+}
+
+.boxfour {
+    text-align: center;
+    border-top: 0.5px solid #c2bebe;
+    padding: 50px 24px 50px 50px;
+    margin: 0px 31px 30px 0px;
+}
+
+/*----------------------- END OF FIRST BUCKET SECTION --------------------------------*/
+.secondbucket {
+    background-image: url("../EventreProject_Images/registration-background.jpg");
+    height: 550px;
+    width: 960px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.secondbgcolor {
+    height: 550px;
+    width: 960px;
+    position: absolute;
+    background: rgb(0, 0, 0, 0.7);
+}
+
+.shortform h2 {
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 2.25rem;
+    margin: 0px 0px 10px 85px;
+    padding: 125px 0px 0px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.eventrestyle {
+    font-weight: 400;
+    color: #ff6600;
+    font-style: italic;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.shortform p {
+    color: #b3b3b3;
+    line-height: 1;
+    margin: 0px 0px 0px 85px;
+    padding: 0px 0px 0px 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.detailt {
+    color: #fff;
+    font-size: 0.9375rem;
+    border: 1px solid #b3b3b3;
+    background: transparent;
+    padding: 15px 50px 15px 20px;
+    margin: 50px 30px 20px 85px;
+    font-family: "Roboto", sans-serif;
+}
+
+.detaile {
+    color: #fff;
+    font-size: 0.9375rem;
+    border: 1px solid #b3b3b3;
+    background: transparent;
+    padding: 15px 50px 15px 20px;
+    margin: 50px 0px 20px 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.detailn {
+    color: #fff;
+    font-size: 0.9375rem;
+    border: 1px solid #b3b3b3;
+    background: transparent;
+    padding: 15px 50px 15px 20px;
+    margin: 0px 30px 20px 85px;
+    font-family: "Roboto", sans-serif;
+}
+
+::placeholder {
+    color: #b3b3b3;
+    font-family: "Roboto", sans-serif;
+}
+
+.detailty {
+    color: #fff;
+    font-size: 0.9375rem;
+    background: transparent;
+    border: 1px solid #b3b3b3;
+    padding: 15px 133px 15px 20px;
+    margin: 0px 30px 20px 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.now {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #222222;
+    background: #fff;
+    line-height: 1.5;
+    padding: 13px 50px 13px 40px;
+    margin: 20px 0px 0px 85px;
+    border: 1px solid transparent;
+    transition: all 0.4s ease;
+    font-family: "Montserrat", sans-serif;
+}
+
+.now:hover {
+    color: #fff;
+    background-color: #ff6600;
+}
+
+/*----------------------- END OF BUCKET SECTION --------------------------------*/
+.tickhead h1 {
+    color: #222222;
+    font-size: 2.25rem;
+    line-height: 1.2;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    margin: 80px 0px 10px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.tickhead span {
+    color: #ff6600;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.tickhead p {
+    color: #848484;
+    font-size: 1rem;
+    line-height: 26px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 50px 0px;
+}
+
+.pricehead {
+    width: 330px;
+    height: fit-content;
+    background: #fafafa;
+    border: 1px solid #e5e5e5;
+    font-family: "Montserrat", sans-serif;
+    margin: 0px 20px 0px 20px;
+}
+
+.standard {
+    color: #fff;
+    width: 330px;
+    height: fit-content;
+    background: #ff6600;
+    border: 1px solid #e5e5e5;
+    font-family: "Montserrat", sans-serif;
+    margin: 0px 20px 0px 20px;
+    box-shadow: 6px 0px 10px #c4c1c1;
+}
+
+.pricehead h5 {
+    width: 200px;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 50px;
+    margin: 0px 0px 0px 50px;
+    padding: 20px 0px 0px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.standard h5 {
+    width: 200px;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 50px;
+    margin: 0px 0px 0px 50px;
+    padding: 20px 0px 0px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.pricehead h4 {
+    color: #222222;
+    font-size: 3.625rem;
+    line-height: 1.2;
+    font-weight: 400;
+    padding: 25px 0px 0px 0px;
+    margin: 0px 0px 0px 38px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.standard h4 {
+    color: #fff;
+    font-size: 3.625rem;
+    line-height: 1.2;
+    font-weight: 400;
+    padding: 25px 0px 0px 0px;
+    margin: 0px 0px 0px 38px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.dollar {
+    font-size: 25px;
+}
+
+.pricehead p {
+    font-size: 1rem;
+    color: #848484;
+    line-height: 26px;
+    padding: 0px 0px 20px 0px;
+    margin: 0px 0px 0px 38px;
+    font-family: "Roboto", sans-serif;
+}
+
+.standard p {
+    font-size: 1rem;
+    color: #fff;
+    line-height: 26px;
+    padding: 0px 0px 20px 0px;
+    margin: 0px 0px 0px 38px;
+    font-family: "Roboto", sans-serif;
+}
+
+.allticket {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.pricebody {
+    width: 330px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    height: fit-content;
+    font-family: "Roboto", sans-serif;
+    margin: 0px 20px 0px 20px;
+}
+
+.standardbody {
+    width: 330px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    height: fit-content;
+    font-family: "Roboto", sans-serif;
+    margin: 0px 20px 0px 20px;
+    box-shadow: 3px 3px 10px #c4c1c1;
+}
+
+.firstlistitem {
+    margin: 30px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
+}
+
+.firstlistitemstand {
+    margin: 30px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
+}
+
+.standardbody li {
+    color: #848484;
+    font-size: 1rem;
+    list-style: none;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 10px;
+}
+
+.pricebody li {
+    color: #848484;
+    font-size: 1rem;
+    list-style: none;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 10px;
+}
+
+.right {
+    color: #ff6600;
+    font-size: 18px;
+    margin: 0px 10px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.wrong {
+    color: #848484;
+    font-size: 18px;
+    margin: 0px 10px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.pricingticket {
+    border: #848484;
+    padding: 15px 40px 15px 40px;
+    margin: 0px 0px 0px 38px;
+}
+
+.pricingticket button {
+    outline: none;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 0.9375rem;
+    background: transparent;
+    padding: 15px 40px 15px 40px;
+    margin: 20px 0px 40px 0px;
+    transition: all 1s ease;
+    border: 0.5px solid #e5e5e5;
+    font-family: "Montserrat", sans-serif;
+}
+
+.pricingticket:hover button {
+    color: #fff;
+    background-color: #ff6600;
+}
+
+.pricingticket .middlebtn {
+    color: #fff;
+    background-color: #ff6600;
+}
+
+.pricingticket .middlebtn:hover {
+    background-color: #a5541e;
+}
+
+/*----------------------- END OF PRICING SECTION --------------------------------*/
+.artno3 {
+    margin: 120px 0px 0px 0px;
+}
+
+.twodivleft {
+    position: relative;
+    border: none;
+}
+
+.bgimg {
+    height: 400px;
+    width: 1520px;
+}
+
+.opac {
+    top: 0px;
+    width: 1520PX;
+    height: 400px;
+    opacity: 0.6;
+    position: absolute;
+    background-color: black;
+}
+
+.infoofdata {
+    position: absolute;
+    z-index: 2;
+    top: 120px;
+    left: 260px;
+}
+
+.infoofdata h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 15px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.infoofdata span {
+    color: #ff6600;
+    font-style: italic;
+}
+
+.infoofdata p {
+    color: #e6e6e6;
+    font-size: 1rem;
+    line-height: 26px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 45px 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.speakerticket {
+    height: 477px;
+    width: 362px;
+    position: absolute;
+    top: -198px;
+    left: 898px;
+    vertical-align: top;
+}
+
+.karanbtn {
+    color: #ffffff;
+    text-align: center;
+    border: #ff6600;
+    background-color: #ff6600;
+    padding: 18px 45px 18px 45px;
+    margin: 0px 0px 0px px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.karanbtn:hover {
+    background-color: #e65c00;
+}
+
+/*----------------------- END OF TWO DIVISION SECTION --------------------------------*/
+#sponser {
+    padding: 30px 0px 0px 0px;
+    background: linear-gradient(0deg, rgba(245, 245, 248, 0.8) 0%, #f7f7f7 100%);
+}
+
+.sponserhead {
+    border: none;
+    width: 100%;
+}
+
+.sponserhead h1 {
+    color: #222222;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 600;
+    word-spacing: 2px;
+    margin: 0px 0px 20px 0px;
+    padding: 30px 0px 0px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.sponserhead span {
+    color: #ff6600;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.sponserhead p {
+    color: #848484;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 26px;
+    margin: 0px 0px 50px 0px;
+    padding: 0px 0px 0px 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.listofspon ul {
+    display: flex;
+    justify-content: center;
+}
+
+.platinium h1 {
+    color: #ff6600;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.listofspon li {
+    list-style: none;
+}
+
+.ptimg {
+    height: 55px;
+    width: 165px;
+    justify-content: space-around;
+    margin: 10px 40px 30px 0px;
+    padding: 45px 50px 45px 50px;
+    border: 0.5px solid #ffffff;
+    background-color: #ffffff;
+    transition: border 0.9s, box-shadow 0.9s;
+}
+
+.ptimg:hover {
+    box-shadow: 1px 1px 10px 1px #b4b3b3;
+    border: 0.2px solid #ff0000;
+}
+
+.glimg {
+    height: 55px;
+    width: 127px;
+    justify-content: space-around;
+    margin: 10px 40px 30px 0px;
+    padding: 45px 50px 45px 50px;
+    border: 0.5px solid #ffffff;
+    background-color: #ffffff;
+    transition: border 0.9s, box-shadow 0.9s;
+}
+
+.glimg:hover {
+    box-shadow: 1px 1px 10px 1px #b4b3b3;
+    border: 0.2px solid #ff0000;
+}
+
+.sponsorbtn {
+    display: flex;
+    justify-content: center;
+}
+
+.sponsor {
+    color: #ffffff;
+    border: none;
+    font-size: 0.9375rem;
+    text-transform: uppercase;
+    background-color: #ff6600;
+    padding: 15px 30px 15px 30px;
+    margin: 10px 0px 30px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.sponsor:hover {
+    background-color: #e65c00;
+}
+
+/*----------------------- END OF TWO SPONSOR SECTION --------------------------------*/
+.teamhead h1 {
+    color: #222222;
+    text-align: center;
+    font-weight: 600;
+    word-spacing: 2px;
+    font-size: 2.25rem;
+    margin: 0px 0px 20px 0px;
+    padding: 30px 0px 0px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.teamhead span {
+    font-weight: 400;
+    color: #ff6600;
+    font-style: italic;
+}
+
+.teamhead p {
+    color: #848484;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 26px;
+    margin: 0px 0px 50px 0px;
+    padding: 0px 0px 0px 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.threechild {
+    display: flex;
+    justify-content: center;
+}
+
+.firstimg {
+    width: 370px;
+    height: 400px;
+    position: relative;
+    ;
+    margin: 10px 20px 20px 0px;
+    border: 0.5px solid #c2c1c1;
+    transition: all 1s ease;
+}
+
+.firstimg:hover {
+    box-shadow: 0px 0px 10px 1px #848484;
+}
+
+.firstimg img {
+    height: 235px;
+    width: 370px;
+}
+
+.sticky {
+    height: 65px;
+    width: 65px;
+    top: 200px;
+    left: 30px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff6600;
+    font-family: "Montserrat", sans-serif;
+}
+
+.date {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 550;
+    padding: 0px 0px 0px 15px;
+}
+
+.month {
+    color: #fff;
+    font-size: 20px;
+    padding: 0px 0px 0px 15px;
+}
+
+.oneline {
+    color: #525151;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 20px 0px 0px 30px;
+    margin: 20px 0px 0px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.oneline:hover {
+    color: #ff6600;
+    transition: 0.2s ease;
+}
+
+.hrblank {
+    width: 280px;
+    padding: 0px 0px 0px 30px;
+    margin: 10px 0px 0px 30px;
+}
+
+.listwithicon li {
+    list-style: none;
+    margin-left: -60px;
+    padding: 0px 0px 0px 0px;
+}
+
+.listwithicon ul {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.iconthree {
+    float: left;
+    font-size: 22px;
+    color: #848484;
+}
+
+li span {
+    font-size: 16px;
+    color: #848484;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 10px;
+}
+
+li span:hover {
+    color: #ff6600;
+    transition: all 0.3s ease;
+}
+
+/*----------------------- END OF TWO EVENT SECTION --------------------------------*/
+.shortpara {
+    height: 250px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../EventreProject_Images/newsletter-bg.jpg");
+}
+
+.emtydiv {
+    top: 0px;
+    width: 100%;
+    height: 250px;
+    opacity: 0.6;
+    position: absolute;
+    background-color: #000000;
+}
+
+.firstinfo {
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    word-spacing: 1px;
+    margin: px 0px 0px 0px;
+    padding: 60px 0px 0px 100px;
+}
+
+.firstinfo h1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 2.25rem;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 10px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.firstinfo span {
+    color: #ff6600;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.firstinfo p {
+    color: #fff;
+    line-height: 26px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    word-spacing: 0.5px;
+    font-family: "Roboto", sans-serif;
+}
+
+.veeru {
+    margin: 10px 0px 0px 50px;
+    padding: 15px 0px 15px 40px;
+}
+
+.veeruinput {
+    padding: 13px 220px 13px 20px;
+}
+
+::placeholder {
+    color: #848484;
+    font-size: 14px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.jeeru {
+    margin: 10px 0px 0px 20px;
+    padding: 15px 0px 15px 20px;
+}
+
+.jeerubtn {
+    color: #fff;
+    border: none;
+    font-size: 0..9375rem;
+    background-color: #ff6600;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 0px;
+    padding: 18px 52px 18px 52px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*----------------------- END OF SHORT DIVISION SECTION --------------------------------*/
+.last {
+    position: relative;
+}
+
+.map {
+    margin: 4px 0px 0px 0px;
+    height: 450px;
+    width: 1520px;
+}
+
+.address {
+    color: #fff;
+    height: 220px;
+    width: fit-content;
+    position: absolute;
+    top: 80px;
+    left: 230px;
+    padding: 45px 40px 45px 40px;
+    margin: 0px 0px 0px 0px;
+    background-color: #ff6600;
+}
+
+.address h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    margin: 0px 0px 0px 26px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.address li {
+    list-style: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.shortadd {
+    color: #fff !important;
+    font-size: 16px;
+}
+
+.addandnum {
+    color: #fff;
+}
+
+.direction {
+    padding: 20px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.get {
+    border: none;
+    color: #222222;
+    font-weight: 400;
+    background-color: #fff;
+    padding: 15px 40px 15px 40px;
+    margin: 0px 0px 0px 30px;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.5s ease;
+}
+
+.get:hover {
+    color: #fff;
+    background-color: #ff6600;
+}
+
+/*----------------------- END OF MAP SECTION --------------------------------*/
+.footer {
+    background-color: #272735;
+    height: 300px;
+}
+
+.footerhead {
+    display: flex;
+    justify-content: center;
+}
+
+.footerimg {
+    padding: 60px 0px 30px 0px;
+}
+
+.listoficon ul {
+    display: flex;
+    justify-content: center;
+}
+
+.listoficon li {
+    list-style: none;
+}
+
+.fivemember {
+    border: none;
+    font-size: 20px;
+    color: #6d6c6c;
+    background-color: #fff;
+    transition: all 0.2s ease;
+    padding: 14px 14px 14px 14px;
+}
+
+.fivemember:hover {
+    color: #fff;
+    background-color: #ff6600;
+}
+
+.copyright {
+    height: 80px;
+    width: 100%;
+    background: #2a2a37;
+    position: relative;
+}
+
+.copyrighthead h1 {
+    font-size: 1rem;
+    color: #848484;
+    line-height: 26px;
+    font-weight: 400;
+    padding: 30px 0px 30px 120px;
+    margin: 0px 0px 0px 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.copyright span {
+    color: #ff6600;
+}
+
+.uparrow {
+    color: #fff;
+    font-size: 24px;
+    background-color: #ff6600;
+    padding: 12px 12px 12px 12px;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    /*----------------------- END OF FOOTER SECTION --------------------------------*/
+}
+
+/*-------------------------------------------------- END OF CSS SECTION HERE -------------------------------------------------------*/
+
+/*-------------------------------------------------- START A MEDIA QUERY SECTION ---------------------------------------------------*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+        margin: 0px;
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        position: absolute;
+        height: fit-content;
+        flex-direction: column;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .logo {
+        height: 24px;
+        width: 120px;
+        border: none;
+        cursor: pointer;
+        margin: 10px 0px 0px 100px;
+        padding: 0px 0px 10px 0px;
+    }
+
+    .emptydiv {
+        height: 0px;
+        width: 0px;
+    }
+
+    .menulist ul {
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+    }
+
+    .menulist li {
+        font-size: 14px;
+        text-align: left;
+        margin: 0px 0px 0px 100px;
+        padding: 0px 0px 15px 0px;
+    }
+
+    .dash {
+        display: none;
+    }
+
+    .dashlast {
+        display: none;
+    }
+
+    .ticket {
+        width: 100%;
+        display: flex;
+        background-color: #ff6600;
+        padding: 5px 0px 5px 0px;
+        margin: 155px 0px 0px 0px;
+    }
+
+    .ticket img {
+        padding: 0px 14px 0px 80px;
+    }
+
+    /*----------------------- END OF MENU BAR SECTION --------------------------------*/
+    #mainheader {
+        background-image: url("../EventreProject_Images/homepage-one-banner.jpg");
+        background-size: cover;
+        position: relative;
+        width: 100%;
+        height: 520px;
+    }
+
+    .pandu {
+        margin: 0px 0px 0px 0px;
+        padding: 210px 0px 0px 0px;
+    }
+
+    .shortdetails {
+        margin: auto;
+        width: 100%;
+        text-align: left;
+        top: 180px;
+        position: absolute;
+    }
+
+    .shortdetails p {
+        font-size: 14px;
+        color: #848484;
+        margin: 0px 0px 0px 20px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .darkhead {
+        color: #ff6600;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 1.2;
+        margin: 10px 0px 5px 20px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .shortdetails h2 {
+        width: 80px;
+        font-size: 30px;
+        color: #ffffff;
+        font-weight: 400;
+        line-height: 32px;
+        font-style: italic;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 5px 20px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .shortdetails h6 {
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: 400;
+        margin: 20px 0px 40px 20px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .shortdetails button {
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        border: transparent;
+        padding: 12px 28px 12px 28px;
+        background-color: #ff6600;
+        margin: 0px 0px 0px 20px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    /*----------------------- END OF SHORT INFO SECTION --------------------------------*/
+    #firstsection {
+        z-index: 0;
+        border: none;
+        width: fit-content;
+        margin: 40px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .textandinfo {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .speakandinfo {
+        position: relative;
+    }
+
+    .backinimg {
+        width: 280px;
+        height: 280px;
+        color: #212529;
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 20px;
+    }
+
+    .speakerone {
+        top: 30px;
+        left: 50px;
+        position: absolute;
+    }
+
+    .frontofimg {
+        width: 220px;
+        height: 220px;
+        border-radius: 50%;
+    }
+
+    .allinfo h3 {
+        width: 200px;
+        font-weight: 550;
+        color: #222222;
+        font-size: 40px;
+        /* margin: 20px 0px 3px 60px; */
+        padding: 0px 0px 3px 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .eventre {
+        font-weight: 400;
+        color: #ff6600;
+        font-style: italic;
+        margin: 20px 0px 30px 0px;
+        padding: 0px 0px 3px 30px;
+    }
+
+    .blankline {
+        height: 2px;
+        width: 50px;
+        border: none;
+        background-color: #ff6600;
+        margin: 0px 0px 20px 110px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .allinfo .para {
+        width: 260px;
+        font-size: 16px;
+        text-align: center;
+        line-height: 22px;
+        letter-spacing: 0.5px;
+        word-spacing: 0.5px;
+        padding: 0px 0px 0px 3px;
+        margin: 30px 0px 20px 30px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .allinfo .paratwo {
+        width: 260px;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        word-spacing: 0.5px;
+        line-height: 22px;
+        padding: 0px 0px 0px 3px;
+        margin: 20px 0px 40px 30px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .karan {
+        color: #ffffff;
+        text-align: center;
+        border: 0.5px solid #ff6600;
+        background-color: #ff6600;
+        padding: 19px 40px 19px 40px;
+        margin: 0px 10px 10px 85px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .karan:hover {
+        background-color: #e65c00;
+    }
+
+    .arjun {
+        border: none;
+        text-align: center;
+        background-color: #fff;
+        border: 0.5px solid gray;
+        padding: 18px 40px 18px 40px;
+        margin: 20px 0px 0px 85px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .arjun:hover {
+        color: #fff;
+        background-color: #ff6600;
+    }
+
+    /*----------------------- END OF FIRST SECTION SECTION --------------------------------*/
+    #mainbody {
+        height: fit-content;
+        margin: 80px 0px 0px 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("../EventreProject_Images/portfoliobackinimg.jpg");
+    }
+
+    .head {
+        color: #fff;
+        font-weight: 600;
+        font-size: 36px;
+        text-align: center;
+        padding: 40px 0px 15px 0px;
+        margin: 0px 0px 10px 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .speaking {
+        color: #ff6600;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .onelinefirst {
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rowonep {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .first {
+        height: 270px;
+        width: 256px;
+        position: relative;
+        overflow: hidden;
+        border: 3px solid rgb(189, 187, 187);
+        padding: 0px 0px 0px 0px;
+    }
+
+    .first img {
+        width: 256px;
+        height: 270px;
+    }
+
+    /*----------------------- END OF PORTFOLIO SECTION --------------------------------*/
+    .timetableofemployee {
+        height: fit-content;
+        padding: 60px 0px 0px 0px;
+        margin: 0px 0px 50px 0px;
+    }
+
+    .bgtable {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("../EventreProject_Images/schedule-bg.png");
+
+    }
+
+    .childone h1 {
+        color: #222222;
+        font-size: 2.25rem;
+        line-height: 1.2;
+        text-align: center;
+        padding: 20px 0px 0px 0px;
+        margin: 0px 0px 20px 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .childone span {
+        color: #ff6600;
+        font-style: italic;
+        font-weight: 400;
+    }
+
+    .childone p {
+        color: #848484;
+        font-size: 1rem;
+        line-height: 26px;
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .childtwo {
+        display: flex;
+        width: 280px;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 0px 0px 0px;
+        margin: 30px 0px 0px 22px;
+    }
+
+    .dayquote {
+        margin: 10px 8px 10px 8px;
+        border: 1px solid #e5e5e5;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .dayquote h1 {
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+        background-color: #ff6600;
+        padding: 10px 10px 5px 10px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .dayquote p {
+        color: #848484;
+        font-size: 0.9rem;
+        font-weight: 500;
+        text-align: center;
+        background-color: #ffffff;
+        padding: 10px 10px 10px 10px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .childthree {
+        width: 260px;
+        display: flex;
+        line-height: 22px;
+        justify-content: center;
+        padding: 0px 0px 0px 0px;
+        margin: 10px 0px 0px 30px;
+    }
+
+    .childthreeone {
+        width: 100%;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #ff6600;
+        border: 1px solid red;
+        padding: 0px 0px 0px 0px;
+        margin: 40px 0px 0px 0px;
+    }
+
+    .childthreeone h4 {
+        font-size: 0.9rem;
+        line-height: 26px;
+        font-weight: 400;
+        padding: 10px 0px 10px 60px;
+        margin: 0px 0px 0px 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .time_shedule {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .shedule {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding: 0px 0px 0px 0px;
+        margin: 10px 0px 0px 0px;
+    }
+
+    .time_9 {
+        display: flex;
+        width: 80px;
+        text-align: left;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 80px;
+    }
+
+    .clock {
+        font-size: 24px;
+        text-align: left;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .time_9 p {
+        font-size: 0.9rem;
+        line-height: 26px;
+        padding: 0px 0px 0px 5px;
+        margin: 0px 0px 0px 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .img_professor {
+        width: 100%;
+        display: flex;
+        text-align: left;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .subdemo {
+        display: none;
+    }
+
+    .vendemo {
+        display: none;
+    }
+
+    .speaker {
+        display: none;
+        border-radius: 50%;
+        border: 3px solid #848484;
+    }
+
+    .professor {
+        width: 80px;
+        font-size: 1rem;
+        line-height: 26px;
+        font-family: "Montserrat", sans-serif;
+        padding: 0px 0px 0px 5px;
+        margin: 0px 0px 0px 100px;
+    }
+
+    .intropara {
+        display: none;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .avenue {
+        display: block;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .avenuepara {
+        display: none;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    /*----------------------- END OF SCHEDULE SECTION --------------------------------*/
+    #twobucket {
+        display: flex;
+        margin: 40px 0px 80px 0px;
+        flex-direction: column;
+    }
+
+    .firstbucket {
+        height: 500px;
+        width: 100%;
+        background-image: url("../EventreProject_Images/feature-background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .firstbgcolor {
+        height: 500px;
+        width: 100%;
+        position: absolute;
+        background: rgb(255, 102, 0, 0.83);
+    }
+
+    .testimonials {
+        padding: 80px 0px 80px 0px;
+    }
+
+    .rowone {
+        color: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .boxone {
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        border-right: 0.5px solid #c2bebe;
+        padding: 20px 20px 0px 20px;
+        margin: 30px 0px 0px 30px;
+    }
+
+    .boxtwo {
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        border: none;
+        padding: 20px 20px 0px 20px;
+        margin: 30px 30px 0px 0px;
+    }
+
+    .boxthree {
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        border-top: 0.5px solid #c2bebe;
+        border-right: 0.5px solid #c2bebe;
+        padding: 20px 40px 0px 30px;
+        margin: 0px 0px 30px 30px;
+    }
+
+    .boxfour {
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        border-top: 0.5px solid #c2bebe;
+        padding: 20px 0px 0px 40px;
+        margin: 0px 31px 30px 0px;
+    }
+
+    .syembol {
+        color: #fff;
+        font-size: 50px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .shortcom {
+        color: #fff;
+        font-size: 12px;
+        line-height: 1.5rem;
+        font-family: "Roboto", sans-serif;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .secondbucket {
+        background-image: url("../EventreProject_Images/registration-background.jpg");
+        height: 650px;
+        width: 100%;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .secondbgcolor {
+        height: 650px;
+        width: 100%;
+        position: absolute;
+        background: rgb(0, 0, 0, 0.7);
+    }
+
+    .parainfo {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .shortform h2 {
+        width: 200px;
+        color: #fff;
+        font-weight: 500;
+        line-height: 1.2;
+        font-size: 2.25rem;
+        margin: 0px 0px 10px 30px;
+        padding: 80px 0px 0px 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .eventrestyle {
+        font-weight: 400;
+        color: #ff6600;
+        font-style: italic;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .shortform p {
+        width: 200px;
+        color: #b3b3b3;
+        line-height: 20px;
+        word-spacing: 0.5px;
+        margin: 0px 0px 0px 30px;
+        padding: 0px 0px 0px 0px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .detailt {
+        color: #fff;
+        font-size: 0.9375rem;
+        border: 1px solid #b3b3b3;
+        background: transparent;
+        margin: 30px 30px 10px 30px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .detaile {
+        color: #fff;
+        font-size: 0.9375rem;
+        border: 1px solid #b3b3b3;
+        background: transparent;
+        margin: 10px 30px 10px 30px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .detailn {
+        color: #fff;
+        font-size: 0.9375rem;
+        border: 1px solid #b3b3b3;
+        background: transparent;
+        margin: 10px 30px 10px 30px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .detailty {
+        color: #fff;
+        font-size: 0.9375rem;
+        background: transparent;
+        border: 1px solid #b3b3b3;
+        margin: 10px 30px 10px 30px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .now {
+        font-size: 1rem;
+        font-weight: 400;
+        color: #222222;
+        background: #fff;
+        line-height: 1.5;
+        padding: 15px 40px 15px 40px;
+        margin: 20px 0px 0px 30px;
+        border: 1px solid transparent;
+        transition: all 0.4s ease;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .now:hover {
+        color: #fff;
+        background-color: #ff6600;
+    }
+
+    /*----------------------- END OF BUCKET SECTION --------------------------------*/
+    .tickhead h1 {
+        color: #222222;
+        font-size: 2.25rem;
+        line-height: 1.2;
+        text-align: center;
+        padding: 0px 0px 0px 0px;
+        margin: 80px 0px 10px 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .tickhead span {
+        color: #ff6600;
+        font-style: italic;
+        font-weight: 400;
+    }
+
+    .tickhead p {
+        color: #848484;
+        font-size: 1rem;
+        line-height: 26px;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 50px 0px;
+    }
+
+    .pricehead {
+        width: 330px;
+        height: fit-content;
+        background: #fafafa;
+        border: 1px solid #e5e5e5;
+        font-family: "Montserrat", sans-serif;
+        margin: 0px 20px 0px 20px;
+    }
+
+    .standard {
+        color: #fff;
+        width: 330px;
+        height: fit-content;
+        background: #ff6600;
+        border: 1px solid #e5e5e5;
+        font-family: "Montserrat", sans-serif;
+        margin: 0px 20px 0px 20px;
+        box-shadow: 10px 10px 10px #c4c1c1;
+    }
+
+    .pricehead h5 {
+        width: 200px;
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 50px;
+        margin: 0px 0px 0px 50px;
+        padding: 20px 0px 0px 0px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .standard h5 {
+        width: 200px;
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 50px;
+        margin: 0px 0px 0px 50px;
+        padding: 20px 0px 0px 0px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .pricehead h4 {
+        color: #222222;
+        font-size: 3.625rem;
+        line-height: 1.2;
+        font-weight: 400;
+        padding: 25px 0px 0px 0px;
+        margin: 0px 0px 0px 38px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .standard h4 {
+        color: #fff;
+        font-size: 3.625rem;
+        line-height: 1.2;
+        font-weight: 400;
+        padding: 25px 0px 0px 0px;
+        margin: 0px 0px 0px 38px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .dollar {
+        font-size: 25px;
+    }
+
+    .pricehead p {
+        font-size: 1rem;
+        color: #848484;
+        line-height: 26px;
+        padding: 0px 0px 20px 0px;
+        margin: 0px 0px 0px 38px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .standard p {
+        font-size: 1rem;
+        color: #fff;
+        line-height: 26px;
+        padding: 0px 0px 20px 0px;
+        margin: 0px 0px 0px 38px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .allticket {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .pricebody {
+        width: 330px;
+        background: #fff;
+        border: 1px solid #e5e5e5;
+        height: fit-content;
+        font-family: "Roboto", sans-serif;
+        margin: 0px 20px 0px 20px;
+    }
+
+    .standardbody {
+        width: 330px;
+        background: #fff;
+        border: 1px solid #e5e5e5;
+        height: fit-content;
+        font-family: "Roboto", sans-serif;
+        margin: 0px 20px 0px 20px;
+        box-shadow: 10px 10px 10px #c4c1c1;
+    }
+
+    .firstlistitem {
+        margin: 30px 0px 0px 0px;
+        padding: 30px 0px 0px 0px;
+    }
+
+    .firstlistitemstand {
+        margin: 30px 0px 0px 0px;
+        padding: 30px 0px 0px 0px;
+    }
+
+    .standardbody li {
+        color: #848484;
+        font-size: 1rem;
+        list-style: none;
+        margin: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 10px;
+    }
+
+    .pricebody li {
+        color: #848484;
+        font-size: 1rem;
+        list-style: none;
+        margin: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 10px;
+    }
+
+    .right {
+        color: #ff6600;
+        font-size: 18px;
+        margin: 0px 10px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .wrong {
+        color: #848484;
+        font-size: 18px;
+        margin: 0px 10px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .pricingticket {
+        border: #848484;
+        padding: 15px 40px 15px 40px;
+        margin: 0px 0px 0px 38px;
+    }
+
+    .pricingticket button {
+        outline: none;
+        font-weight: 400;
+        line-height: 1.5;
+        font-size: 0.9375rem;
+        background: transparent;
+        padding: 15px 40px 15px 40px;
+        margin: 20px 0px 40px 0px;
+        transition: all 1s ease;
+        border: 0.5px solid #e5e5e5;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .pricingticket:hover button {
+        color: #fff;
+        background-color: #ff6600;
+    }
+
+    .pricingticket .middlebtn {
+        color: #fff;
+        background-color: #ff6600;
+    }
+
+    .pricingticket .middlebtn:hover {
+        background-color: #a5541e;
+    }
+
+    /*----------------------- END OF PRICING SECTION --------------------------------*/
+    .allticket {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pricehead {
+        width: 300px;
+        height: fit-content;
+        background: #fafafa;
+        border: 1px solid #e5e5e5;
+        font-family: "Montserrat", sans-serif;
+        margin: 0px 20px 0px 10px;
+    }
+
+    .pricebody {
+        width: 300px;
+        background: #fff;
+        border: 1px solid #e5e5e5;
+        height: fit-content;
+        font-family: "Roboto", sans-serif;
+        margin: 0px 20px 30px 10px;
+    }
+
+    .standard {
+        color: #fff;
+        width: 300px;
+        height: fit-content;
+        background: #ff6600;
+        border: 1px solid #e5e5e5;
+        font-family: "Montserrat", sans-serif;
+        margin: 0px 20px 0px 10px;
+        box-shadow: 6px 0px 10px #c4c1c1;
+    }
+
+    .standardbody {
+        width: 300px;
+        background: #fff;
+        border: 1px solid #e5e5e5;
+        height: fit-content;
+        font-family: "Roboto", sans-serif;
+        margin: 0px 20px 30px 10px;
+        box-shadow: 3px 3px 10px #c4c1c1;
+    }
+
+    /*----------------------- END OF PRICING SECTION --------------------------------*/
+    .artno3 {
+        margin: 50px 0px 0px 0px;
+    }
+
+    .twodivleft {
+        position: relative;
+        border: none;
+    }
+
+    .bgimg {
+        height: 500px;
+        width: 100%;
+    }
+
+    .opac {
+        top: 0px;
+        width: 100%;
+        height: 500px;
+        opacity: 0.6;
+        position: absolute;
+        background-color: black;
+    }
+
+    .infoofdata {
+        position: absolute;
+        z-index: 2;
+        top: 120px;
+        left: 260px;
+    }
+
+    .infoofdata h1 {
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 42px;
+        width: 250px;
+        padding: 0px 0px -50px 0px;
+        margin: -10px 0px 15px -240px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .infoofdata span {
+        color: #ff6600;
+        font-style: italic;
+    }
+
+    .infoofdata p {
+        color: #e6e6e6;
+        font-size: 1rem;
+        line-height: 26px;
+        width: 280px;
+        padding: 0px 0px 0px 0px;
+        margin: 20px 0px 45px -240px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .speakerticket {
+        display: none;
+    }
+
+    .karanbtn {
+        color: #ffffff;
+        text-align: center;
+        border: #ff6600;
+        background-color: #ff6600;
+        padding: 18px 45px 18px 45px;
+        margin: 0px 0px 0px -240px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .karanbtn:hover {
+        background-color: #e65c00;
+    }
+
+    /*----------------------- END OF TICKET SECTION --------------------------------*/
+    .firstbucket {
+        height: 500px;
+        width: 100%;
+        background-image: url("../EventreProject_Images/feature-background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .firstbgcolor {
+        height: 500px;
+        width: 100%;
+        position: absolute;
+        background: rgb(255, 102, 0, 0.83);
+    }
+
+    .testimonials {
+        padding: 80px 0px 80px 0px;
+    }
+
+    .rowone {
+        color: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .boxone {
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        border-right: 0.5px solid #c2bebe;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .boxtwo {
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        border: none;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .boxthree {
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        border-top: 0.5px solid #c2bebe;
+        padding: 20px 21px 20px 20px;
+    }
+
+    .boxfour {
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        border-top: 0.5px solid #c2bebe;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .syembol {
+        color: #fff;
+        font-size: 50px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .shortcom {
+        color: #fff;
+        font-size: 12px;
+        line-height: 1.5rem;
+        font-family: "Roboto", sans-serif;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .secondbucket {
+        background-image: url("../EventreProject_Images/registration-background.jpg");
+        /* background-image: url("../FIRSTPROJECT/FirstProjectImages/registration-background.jpg"); */
+        height: 650px;
+        width: 100%;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .secondbgcolor {
+        height: 650px;
+        width: 100%;
+        position: absolute;
+        background: rgb(0, 0, 0, 0.7);
+    }
+
+    .parainfo {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .shortform h2 {
+        color: #fff;
+        font-weight: 500;
+        line-height: 1.2;
+        font-size: 2.25rem;
+        margin: 0px 0px 10px 30px;
+        padding: 80px 0px 0px 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .eventre {
+        font-weight: 400;
+        color: #ff6600;
+        font-style: italic;
+        margin: 0px 0px 10px -30px;
+    }
+
+    .shortform p {
+        width: 200px;
+        color: #b3b3b3;
+        line-height: 20px;
+        word-spacing: 0.5px;
+        margin: 0px 0px 0px 30px;
+        padding: 0px 0px 0px 0px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .detailt {
+        color: #fff;
+        font-size: 0.9375rem;
+        border: 1px solid #b3b3b3;
+        background: transparent;
+        margin: 30px 30px 10px 30px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .detaile {
+        color: #fff;
+        font-size: 0.9375rem;
+        border: 1px solid #b3b3b3;
+        background: transparent;
+        margin: 10px 30px 10px 30px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .detailn {
+        color: #fff;
+        font-size: 0.9375rem;
+        border: 1px solid #b3b3b3;
+        background: transparent;
+        margin: 10px 30px 10px 30px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .detailty {
+        color: #fff;
+        font-size: 0.9375rem;
+        background: transparent;
+        border: 1px solid #b3b3b3;
+        margin: 10px 30px 10px 30px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .now {
+        font-size: 1rem;
+        font-weight: 400;
+        color: #222222;
+        background: #fff;
+        line-height: 1.5;
+        padding: 15px 40px 15px 40px;
+        margin: 20px 0px 0px 30px;
+        border: 1px solid transparent;
+        transition: all 0.4s ease;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .now:hover {
+        color: #fff;
+        background-color: #ff6600;
+    }
+
+    #sponsor {
+        width: 100%;
+    }
+
+    .listofspon ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .listofspon li {
+        list-style: none;
+        margin: 0px 0px -70px -60px;
+        text-align: center;
+    }
+
+    .platinium h1 {
+        color: #ff6600;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: "Roboto", sans-serif;
+        margin: 70px 0px 0px 0px;
+    }
+
+    .glimg {
+        height: 55px;
+        width: 127px;
+        justify-content: space-around;
+        margin: 10px 40px 30px 0px;
+        padding: 45px 70px 45px 70px;
+        border: 0.5px solid #ffffff;
+        background-color: #ffffff;
+        transition: border 0.9s, box-shadow 0.9s;
+    }
+
+    .glimg:hover {
+        box-shadow: 1px 1px 10px 1px #b4b3b3;
+        border: 0.2px solid #ff0000;
+    }
+
+    .ptimg {
+        height: 55px;
+        width: 165px;
+        justify-content: space-around;
+        border: 0.5px solid #ffffff;
+        background-color: #ffffff;
+        transition: border 0.9s, box-shadow 0.9s;
+    }
+
+    .ptimg:hover {
+        box-shadow: 1px 1px 10px 1px #b4b3b3;
+        border: 0.2px solid #ff0000;
+    }
+
+    .sponsor {
+        color: #ffffff;
+        border: none;
+        font-size: 0.9375rem;
+        text-transform: uppercase;
+        background-color: #ff6600;
+        padding: 15px 30px 15px 30px;
+        margin: 70px 0px 30px 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    /*----------------------- END OF SPONSER SECTION --------------------------------*/
+    .teamhead h1 {
+        color: #222222;
+        text-align: center;
+        font-weight: 600;
+        word-spacing: 2px;
+        font-size: 2.25rem;
+        margin: 0px 0px 20px 0px;
+        padding: 100px 0px 0px 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .teamhead span {
+        font-weight: 400;
+        color: #ff6600;
+        font-style: italic;
+    }
+
+    .teamhead p {
+        color: #848484;
+        font-size: 1rem;
+        text-align: center;
+        line-height: 26px;
+        margin: 0px 0px 50px 0px;
+        padding: 0px 0px 0px 0px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .threechild {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .firstimg {
+        width: 270px;
+        height: 350px;
+        position: relative;
+        margin: 10px 20px 20px 25px;
+        border: 0.5px solid #c2c1c1;
+        transition: all 1s ease;
+    }
+
+    .firstimg:hover {
+        box-shadow: 0px 0px 10px 1px #848484;
+    }
+
+    .firstimg img {
+        height: 165px;
+        width: 270px;
+    }
+
+    .sticky {
+        height: 55px;
+        width: 55px;
+        top: 130px;
+        left: 20px;
+        display: flex;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        background-color: #ff6600;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .date {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 550;
+        padding: 10px 15px 0px 15px;
+    }
+
+    .month {
+        color: #fff;
+        font-size: 16px;
+        padding: 0px 15px 10px 15px;
+    }
+
+    .oneline {
+        color: #525151;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 26px;
+        width: 160px;
+        padding: 20px 0px 0px 30px;
+        margin: 20px 0px 0px -10px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .oneline:hover {
+        color: #ff6600;
+        transition: 0.2s ease;
+    }
+
+    .hrblank {
+        width: 110px;
+        padding: 0px 0px 0px 30px;
+        margin: 10px 0px 0px 20px;
+    }
+
+    .iconthree {
+        float: left;
+        font-size: 20px;
+        color: #848484;
+    }
+
+    li span {
+        font-size: 14px;
+        color: #848484;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 5px;
+    }
+
+    li span:hover {
+        color: #ff6600;
+        transition: all 0.3s ease;
+    }
+
+    /*----------------------- END OF TWO EVENTNEWS SECTION --------------------------------*/
+    .shortpara {
+        height: 450px;
+        width: 100%;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("../EventreProject_Images/newsletter-bg.jpg");
+        /* background-image: url("../FIRSTPROJECT/FirstProjectImages/newsletter-bg.jpg"); */
+    }
+
+    .emtydiv {
+        top: 0px;
+        width: 100%;
+        height: 450px;
+        opacity: 0.6;
+        position: absolute;
+        background-color: #000000;
+    }
+
+    .firstinfo {
+        z-index: 2;
+        display: flex;
+        position: absolute;
+        word-spacing: 1px;
+        margin: px 0px 0px 0px;
+        flex-direction: column;
+        padding: 60px 0px 0px 100px;
+    }
+
+    .firstinfo h1 {
+        width: 270px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 2.25rem;
+        line-height: 41px;
+        word-spacing: 0.5px;
+        margin: 0px 0px 0px -80px;
+        padding: 0px 0px 10px 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .firstinfo span {
+        color: #ff6600;
+        font-style: italic;
+        font-weight: 400;
+    }
+
+    .firstinfo p {
+        width: 290px;
+        color: #fff;
+        font-size: 15px;
+        line-height: 26px;
+        margin: 0px 0px 0px -80px;
+        padding: 0px 0px 0px 0px;
+        word-spacing: 0.5px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .veeru {
+        margin: 60px 0px 0px -120px;
+        padding: 15px 0px 15px 40px;
+    }
+
+    .veeruinput {
+        padding: 12px 100px 12px 20px;
+    }
+
+    ::placeholder {
+        color: #848484;
+        font-size: 14px;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .jeeru {
+        margin: -10px 0px 0px -100px;
+        padding: 15px 0px 15px 20px;
+    }
+
+    .jeerubtn {
+        color: #fff;
+        border: none;
+        font-size: 0..9375rem;
+        background-color: #ff6600;
+        text-transform: uppercase;
+        margin: 0px 0px 0px 0px;
+        padding: 16px 46px 16px 46px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    /*----------------------- END OF SEARCH BAR SECTION --------------------------------*/
+    .last {
+        position: relative;
+    }
+
+    .map {
+        margin: 4px 0px 0px 0px;
+        height: 450px;
+        width: 100%;
+    }
+
+    .address {
+        display: none;
+    }
+
+    /*----------------------- END OF MAP SECTION --------------------------------*/
+    .footer {
+        height: 250px;
+        background-color: #272735;
+    }
+
+    .footerhead {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footerimg {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .listoficon ul {
+        display: flex;
+        justify-content: center;
+        margin: 0px 0px 0px 5px;
+        padding: 50px 0px 0px 0px;
+    }
+
+    .listoficon li {
+        list-style: none;
+        padding: 5px 5px 5px 5px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .fivemember {
+        border: none;
+        font-size: 22px;
+        color: #6d6c6c;
+        background-color: #fff;
+        transition: all 0.2s ease;
+        padding: 12px 12px 12px 12px;
+    }
+
+    .fivemember:hover {
+        color: #fff;
+        background-color: #ff6600;
+    }
+
+    /*----------------------- END OF FIRST FOOTER SECTION --------------------------------*/
+    .copyright {
+        height: 180px;
+        width: 100%;
+        background: #2a2a37;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .copyrighthead h1 {
+        width: 250px;
+        font-size: 1rem;
+        color: #848484;
+        line-height: 26px;
+        font-weight: 400;
+        text-align: left;
+        word-spacing: 0.5px;
+        letter-spacing: 0.5px;
+        padding: 30px 0px 30px 60px;
+        margin: 0px 0px 0px 0px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .copyright span {
+        color: #ff6600;
+    }
+
+    .uparrow {
+        color: #fff;
+        font-size: 22px;
+        background-color: #ff6600;
+        padding: 12px 12px 12px 12px;
+        position: absolute;
+        top: 120px;
+        right: 140px;
+    }
+
+    /*----------------------- END OF FOOTER SECTION --------------------------------*/
+}
